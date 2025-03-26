@@ -65,7 +65,9 @@ executable simulation
 
     -- Other library packages from which modules are imported.
     build-depends:    base ^>=4.17.2.1,
-                      random
+                      random,
+                      Chart,
+                      Chart-cairo
 
     -- Directories containing source files.
     hs-source-dirs:   app
